@@ -57,8 +57,8 @@ const starts = async (kurr = new WAConnection()) => {
 
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
+        ownerNumber = ["62881037046507@s.whatsapp.net","62881037046507@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "62881037046507@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
 
